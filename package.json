@@ -1,0 +1,31 @@
+{
+  "name": "eventserver",
+  "version": "1.0.0",
+  "description": "event server",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/mr.kumarabhinavyadav/eventserver.git"
+  },
+  "author": "Abhinav Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mr.kumarabhinavyadav/eventserver.git/issues"
+  },
+  "homepage": "https://gitlab.com/mr.kumarabhinavyadav/eventserver.git#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.5.0",
+    "aws-sdk": "^2.1058.0",
+    "cros": "^1.0.1",
+    "express": "^4.17.1",
+    "helmet": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.1"
+  }
+}
